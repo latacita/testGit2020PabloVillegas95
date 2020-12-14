@@ -1,8 +1,12 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Villegas Fernández, Pablo            %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+01      clone
+02      checkout -b DatosPersonales
+03      Se modifica PlanVacunacion.txt
+04      Se modifica bitacora.txt
