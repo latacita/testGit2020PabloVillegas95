@@ -10,3 +10,8 @@
 02      checkout -b DatosPersonales
 03      Se modifica PlanVacunacion.txt
 04      Se modifica bitacora.txt
+05
+06
+07      checkout -b Antecedentes
+08      atom antecedentes.txt
+09      add + commit 
