@@ -18,4 +18,7 @@
 10      checkout master               En el paso 9 se ha realizado un add + commit. Esto hace que no sea necesario usar el comando git stash para guardar los cambios y cambiar de rama sin problema.
 11      merge DatosPersonales + git push
 12                                    Seria recursiva con conflictos ya que DatosPersonales y Antecedentes han modificado el archivo común bitacora.txt
-13      add + commit 
+13      add + commit
+14      merge --no-ff Antecedentes    Ha sido necesario resolver conflictos, había pasos superpuestos.
+15      git merge DatosPersonales     Se había hecho merge en el paso 11, por lo que no se ha modificado nada.
+16      editar bitadora.txt + add + commit 
