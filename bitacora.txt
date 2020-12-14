@@ -10,3 +10,7 @@
 02      checkout -b DatosPersonales
 03      Se modifica PlanVacunacion.txt
 04      Se modifica bitacora.txt
+10      checkout master               En el paso 9 se ha realizado un add + commit. Esto hace que no sea necesario usar el comando git stash para guardar los cambios y cambiar de rama sin problema.
+11      merge DatosPersonales + git push
+12                                    Seria recursiva con conflictos ya que DatosPersonales y Antecedentes han modificado el archivo común bitacora.txt
+13      add + commit 
